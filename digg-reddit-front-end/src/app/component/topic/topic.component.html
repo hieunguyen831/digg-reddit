@@ -1,0 +1,10 @@
+<div class="topic-container">
+  <p> Title: {{topic.title}} </p>
+  <p> Content: {{topic.content}} </p>
+  <p> Number of up voting: {{topic.numOfUpVoting}} </p>
+  <p> Number of down voting: {{topic.numOfDownVoting}} </p>
+
+  <button (click)="upvote()">Up vote</button>
+
+  <button (click)="downVote()">Down vote</button>
+</div>
